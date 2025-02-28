@@ -4,8 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+
+
+
+<!-- Fontawesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+     
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-[#c3c9ca] ">
+    <header>
+        <nav>
+            <div class="bg-white rounded-lg  lg:max-w-[1280px] max-w-[700px] mx-auto p-2 lg:p-4  mt-5">
+                <div class="flex justify-between items-center  ">
+                          <div class="flex justify-center items-center gap-3">
+                                <div>
+                                <img src="assets/logo.png" alt="">
+                                </div>
+                         
+                                 <div><h1 class="text-2xl">Dev <span class="font-bold  text-[#00303C]">Board</span></h1>
+                                 </div>  
+                          </div>
+                      
+                           <div class="flex justify-center items-center gap-5 ">
+                                   <div class="rounded-3xl  bg-[#F4F7FF] text-center flex      gap-3 justify-center items-center w-20 ">
+                                    <div><i class="fa-solid fa-check bg-[#3752FD] rounded-sm"></i></div>
+                                    <div><h1 class="font-bold text-2xl ">23</h1></div>
+                                  </div>
+                                     <div><img src="assets/theme-btn.png" alt=""></div>
+      
+                           </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+         <section class="bg-white rounded-lg  lg:max-w-[1280px] max-w-[700px] mx-auto p-2 lg:p-4 mt-10 ">
+            <div class="rounded-lg bg-white">
+                 <div class="flex justify-between items-center ">
+                    <div class="flex justify-between mb-[240px] gap-5  ">
+                        <div class="flex justify-center items-center gap-5 rounded-lg bg-[#F4F7FF]  w-60 h-32 ">
+                            <div class="w-8 h-8 bg-white rounded-full text-center "><i class="fa-solid fa-check bg-[#3752FD] rounded-sm"></i></div>
+                             <div>
+                               <p>Task Assiged</p>
+                               <p class="font-bold text-2xl">6</p>
+                              </div>
+   
+                           </div>
+                          <div class="flex justify-center items-center gap-5 rounded-lg  bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]   h-32 w-96">
+                           <div><img src="assets/board.png" alt=""></div>
+                            <div><p>Discover Something New Today!</p></div>
+   
+                          </div>
+                          <div class="flex justify-center items-center gap-5 rounded-lg bg-[#F4F7FF] w-60 h-32" >
+                           <div class=" w-16 h-16 bg-white rounded-full "><img src="assets/calender.png" alt=""></div>
+                            <div><p>Wed ,<br><span class="font-bold text-2xl">Jul 28 2025</span> </p></div>
+                          </div>
+
+                            <div>
+                                <div>
+                                    <div><p>Shop Ease</p></div>
+                                    <h2>Fix Mobile Button Issue </h2>
+                                    <div>
+                                        <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                            and ensure onClick works properly</p>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <div>
+                                            <p>Deadline</p>
+                                            <p>21 March 2025</p>
+                                        </div>
+                                        <div>
+                                            <button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4">Clear History</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                         
+                         </div>
+                       
+                           
+                          
+
+
+                   </div> 
+   
+   
+   
+                   <div class="rounded-lg bg-[#F4F7FF]  text-center w-80 h-96">
+                        <div class="flex justify-center items-center gap-4 mt-5">
+                            <div><i class="fa-solid fa-clock-rotate-left"></i></div>
+                            <div>Activity Log </div>
+                        </div>
+                        <button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4">Clear History</button><br><br><hr>
+      
+                   </div>
+                 </div>
+
+            </div>
+                 
+         </section>
+          
+    </main>
+ 
+    <script src="JavaScript/st.js"></script>
     
 </body>
 </html>
