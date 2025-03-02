@@ -5,6 +5,10 @@ if(discoverBox){
     });
 }
 
-document.getElementById("question-box").addEventListener("click", function(){
-    window.location.href = "index.html";
-});
+const questionBos = document.getElementById("question-box");
+
+if(questionBos){
+    questionBos.addEventListener("click", function(){
+        window.location.href = "index.html";
+    });
+}

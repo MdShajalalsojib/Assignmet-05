@@ -36,7 +36,7 @@
                            <div class="flex justify-center items-center gap-5 ">
                                    <div class="rounded-3xl  bg-[#F4F7FF] text-center flex      gap-3 justify-center items-center w-20 ">
                                     <div><i class="fa-solid fa-check bg-[#3752FD] rounded-sm"></i></div>
-                                    <div><h1 class="font-bold text-2xl ">23</h1></div>
+                                    <div><h1 id="nad-number" class="font-bold text-2xl ">23</h1></div>
                                   </div>
                                      <div id="color-but"><img src="assets/theme-btn.png" alt=""></div>
       
@@ -56,7 +56,7 @@
                             <div class="w-8 h-8 bg-white rounded-full text-center "><i class="fa-solid fa-check bg-[#3752FD] rounded-sm"></i></div>
                              <div>
                                <p>Task Assiged</p>
-                               <p class="font-bold text-2xl">6</p>
+                               <p id="task-number" class="font-bold text-2xl">6</p>
                               </div>
    
                            </div>
@@ -85,7 +85,7 @@
                                            <p>Deadline</p>
                                            <h3>21 March 2025</h3>
                                        </div>
-                                       <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4">Completed</button></div>
+                                       <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4 completed-btn">Completed</button></div>
                                    </div>
                              
    
@@ -101,7 +101,7 @@
                                           <p>Deadline</p>
                                           <h3>21 March 2025</h3>
                                       </div>
-                                      <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4">Completed</button></div>
+                                      <div><button class="completed-btn rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4">Completed</button></div>
                                   </div>
                             
    
@@ -119,7 +119,7 @@
                                       <p>Deadline</p>
                                       <h3>21 March 2025</h3>
                                   </div>
-                                  <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4">Completed</button></div>
+                                  <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4 completed-btn">Completed</button></div>
                               </div>
                         
    
@@ -136,7 +136,7 @@
                                            <p>Deadline</p>
                                            <h3>21 March 2025</h3>
                                        </div>
-                                       <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4">Completed</button></div>
+                                       <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4 completed-btn">Completed</button></div>
                                    </div>
                              
     
@@ -155,7 +155,7 @@
                                        <p>Deadline</p>
                                        <h3>21 March 2025</h3>
                                    </div>
-                                   <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4">Completed</button></div>
+                                   <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4 completed-btn">Completed</button></div>
                                </div>
                          
 
@@ -174,7 +174,7 @@
                                    <p>Deadline</p>
                                    <h3>21 March 2025</h3>
                                </div>
-                               <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4">Completed</button></div>
+                               <div><button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4 completed-btn">Completed</button></div>
                            </div>
                      
 
@@ -190,10 +190,11 @@
                 <div class="rounded-lg bg-[#F4F7FF]  text-center w-80 h-[830px]  ">
                     <div class="flex justify-center items-center gap-4 mt-5">
                         <div><i class="fa-solid fa-clock-rotate-left"></i></div>
-                        <div>Activity Log </div>
+                        <div id="ActivityLog">Activity Log </div>
                     </div>
-                    <button class="rounded-lg text-center w-40 p-4 bg-[#3752FD] text-white mt-4">Clear History</button><br><br><hr>
-    
+                    <button class="rounded-lg text-center w-40 p-4 mb-5 bg-[#3752FD] text-white mt-4 clear-btn">Clear History</button><hr>
+                    
+                    <div class="history-container  bg-white rounded-lg"></div>
               </div>
            </div>
 
@@ -213,7 +214,7 @@
     <script src="JavaScript/Discover.js"></script>
     <script src="JavaScript/st.js"></script>
     <script src="JavaScript/color.js"></script>
-     
+     <script src="JavaScript/button.js"></script>
     
 </body>
 </html>
