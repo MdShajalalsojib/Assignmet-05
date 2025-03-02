@@ -54,7 +54,9 @@
                     Returns or sets the HTML content of an element, including any child elements.
                     It parses the HTML, meaning it processes and renders any HTML tags inside the string. <br>
                     2.innerText <br>
-                Returns or sets the visible text inside an element.Ignores hidden elements (display: none).Preserves formatting like line breaks but does not include extra spaces.
+                Returns or sets the visible text inside an element.Ignores hidden elements (display: none).Preserves formatting like line breaks but does not include extra spaces.<br>
+                3.textContent <br>
+                Returns or sets all text content inside an element, including hidden elements.Does not parse HTML, meaning it treats HTML tags as plain text.Preserves all spaces and line breaks.
                 
                 </p>
             </div>
@@ -62,19 +64,30 @@
             <div  class="bg-white rounded-lg  lg:max-w-[1380px] max-w-[700px] mx-auto p-2 lg:p-4 mt-5 ">
                 <h2>Question-3: What is event delegation in the DOM?</h2>
 
-                <p class="mt-3 text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla voluptates libero omnis officia possimus incidunt soluta porro corrupti quas a?</p>
+                <p class="mt-3 text-gray-400">Ans:Event delegation is a technique in JavaScript where you assign a single event listener to a parent element instead of adding multiple listeners to individual child elements. This works because of event bubbling, where events propagate from the target element up to the parent elements.</p>
             </div>
 
             <div  class="bg-white rounded-lg  lg:max-w-[1380px] max-w-[700px] mx-auto p-2 lg:p-4 mt-5   ">
                 <h2>Question-4: What is event bubbling in the DOM?</h2>
 
-                <p class="mt-3 text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla voluptates libero omnis officia possimus incidunt soluta porro corrupti quas a?</p>
+                <p class="mt-3 text-gray-400">Ans:Event Bubbling is a process in the DOM where an event that occurs on a child element first triggers its own event listener, then propagates upward to its parent and ancestors.</p>
             </div>
 
             <div  class="bg-white rounded-lg  lg:max-w-[1380px] max-w-[700px] mx-auto p-2 lg:p-4 mt-5   ">
                 <h2>Question-5: How do you create, add, and remove elements using JavaScript?</h2>
 
-                <p class="mt-3 text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla voluptates libero omnis officia possimus incidunt soluta porro corrupti quas a?</p>
+                <p class="mt-3 text-gray-400">Ans:JavaScript provides various methods to create, add, and remove elements dynamically in the DOM <br>1. Creating Elements <br>
+                    Use document.createElement(tagName) to create a new element.
+                    Ex:const newDiv = document.createElement("div");  
+                    newDiv.textContent = "Hello, World!"; 
+                    newDiv.classList.add("my-class");  <br>
+                    2. Adding Elements to the DOM <br>
+                    Append to a Parent (appendChild), Append Multiple Elements (append),  Insert Before a Specific Element (insertBefore), Insert at a Specific Position (insertAdjacentHTML) <br>
+                    3. Removing Elements <br>
+                    Remove an Element (remove), Remove a Child Element (removeChild)
+                    
+                
+                </p>
             </div>
         </section>
      </main>
